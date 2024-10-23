@@ -1,7 +1,7 @@
 #include <iostream>
 #include "StackPath.h"
 
-// Push a new segment onto the stack.
+// Push a new segment onto the stack
 void StackPath::push(double theDistance, int theDegree, Direction theDirection)
 {
     StackNode *newNode = new StackNode; //Create new node.
